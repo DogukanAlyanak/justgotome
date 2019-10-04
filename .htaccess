@@ -1,0 +1,34 @@
+# :) - SIRALAMA ÖNEMLİ OYNAMA !
+RewriteEngine On
+RewriteBase /
+
+# Https Düzeltme
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+
+# Bilmiyorum :) Request Dosya adı tanımlamaları heralde aşağısı için geçerli
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# ana sayfaya yönlendirmesini istemediğimiz ###.php dosyalarını ayırma
+RewriteCond %{REQUEST_URI} !profile$
+RewriteCond %{REQUEST_URI} !list$
+RewriteCond %{REQUEST_URI} !login$
+RewriteCond %{REQUEST_URI} !signup$
+RewriteCond %{REQUEST_URI} !resetpass$
+RewriteCond %{REQUEST_URI} !editprofile$
+RewriteCond %{REQUEST_URI} !editpassword$
+RewriteCond %{REQUEST_URI} !support$
+
+# uzantıları Ana Sayfaya Yönlendirme
+RewriteRule ^(.*)$ go.php?process=$1 [QSA,L]
+
+# ana sayfaya yönlendirmesini istemediğimiz uzantısız dosyaları ayırma
+RewriteCond %{REQUEST_URI} !yonetim/$
+RewriteCond %{REQUEST_URI} !yonetim/members$
+RewriteCond %{REQUEST_URI} !yonetim/memberedit$
+RewriteCond %{REQUEST_URI} !yonetim/links$
+RewriteCond %{REQUEST_URI} !yonetim/linksedit$
+
+# ###.php silme
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

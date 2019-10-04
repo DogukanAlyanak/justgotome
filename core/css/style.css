@@ -1,0 +1,977 @@
+/* ----- Buton ----- */
+
+/* Buton Genel */
+
+.bt, .bt:link, .bt:hover, .bt:visited, .bt:active {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+/* Aktif Navbar Buton Tür 1 */
+
+.bt-active-1, .bt-active-1:link, .bt-active-1:visited {
+    font-size: 14px;
+    font-weight: 700;
+    background: linear-gradient(75deg, rgb(0, 110, 255) 0, rgb(0, 210, 255) 100%);
+    padding: 6px 18px;
+    -webkit-border-radius: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.bt-active-1:hover {
+    font-size: 14px;
+    font-weight: 700;
+    background: rgb(0, 170, 255);
+    padding: 6px 18px;
+    -webkit-border-radius: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.bt-active-1:active {
+    font-size: 14px;
+    font-weight: 700;
+    background: rgb(0, 200, 255);
+    padding: 6px 18px;
+    -webkit-border-radius: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* Aktif Navbar Buton Tür 2 */
+
+.bt-active-2, .bt-active-2:link, .bt-active-2:visited {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 6px 18px;
+    color: #000;
+    font-weight: 600;
+}
+
+.bt-active-2:hover {
+    font-size: 14px;
+    font-weight: 700;
+    background: rgb(0, 170, 255);
+    padding: 6px 18px;
+    -webkit-border-radius: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.bt-active-2:active {
+    font-size: 14px;
+    font-weight: 700;
+    background: rgb(0, 200, 255);
+    padding: 6px 18px;
+    -webkit-border-radius: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* Passive Navbar Buton Tür 1 */
+
+.bt-passive-1, .bt-passive-1:link, .bt-passive-1:visited {
+    font-size: 14px;
+    font-weight: 700;
+    background: #fff;
+    padding: 6px 18px;
+    -webkit-border-radius: 20px;
+    color: rgb(0, 192, 255);
+    font-weight: 600;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .18);
+}
+
+.bt-passive-1:hover {
+    font-size: 14px;
+    font-weight: 700;
+    background: linear-gradient(75deg, rgb(0, 110, 255) 0, rgb(0, 210, 255) 100%);
+    padding: 6px 18px;
+    -webkit-border-radius: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .13);
+}
+
+.bt-passive-1:active {
+    font-size: 14px;
+    font-weight: 700;
+    background: rgb(0, 220, 255);
+    padding: 6px 18px;
+    -webkit-border-radius: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .05);
+}
+
+/* Pasif Navbar Buton Tür 2 */
+
+.bt-passive-2, .bt-passive-2:link, .bt-passive-2:visited {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 6px 18px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.bt-passive-2:hover {
+    font-size: 14px;
+    font-weight: 700;
+    background: #fff;
+    padding: 6px 18px;
+    -webkit-border-radius: 20px;
+    color: rgb(0, 192, 255);
+    font-weight: 600;
+}
+
+.bt-passive-2:active {
+    font-size: 14px;
+    font-weight: 700;
+    background: rgb(0, 220, 255);
+    padding: 6px 18px;
+    -webkit-border-radius: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* Kısalt Ana Main Buton*/
+
+.bt-mainBtn-1, .bt-mainBtn-1:link, .bt-mainBtn-1:visited {
+    font-size: 14px;
+    font-weight: 700;
+    background: linear-gradient(75deg, rgb(0, 110, 255) 0, rgb(0, 195, 255) 100%);
+    padding: 8px 25px;
+    -webkit-border-radius: 20px;
+    color: #ffffff!important;
+    font-weight: 600;
+    outline: 0!important;
+}
+
+.bt-mainBtn-1:hover {
+    font-size: 14px;
+    font-weight: 700;
+    background: rgb(0, 180, 255);
+    padding: 8px 25px;
+    -webkit-border-radius: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    outline: 0!important;
+}
+
+.bt-mainBtn-1:active {
+    font-size: 14px;
+    font-weight: 700;
+    background: rgb(0, 200, 255);
+    padding: 8px 25px;
+    -webkit-border-radius: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    outline: 0!important;
+}
+
+/* Kopyala Ana Main Buton*/
+
+.bt-copyBtn, .bt-copyBtn:link, .bt-copyBtn:visited {
+    font-size: 14px;
+    font-weight: 700;
+    background: transparent;
+    padding: 8px 25px;
+    -webkit-border-radius: 20px;
+    color: rgb(0, 155, 255)!important;
+    font-weight: 600;
+    outline: 0!important;
+    border: 1px solid rgb(0, 175, 255);
+}
+
+.bt-copyBtn:hover {
+    font-size: 14px;
+    font-weight: 700;
+    background: linear-gradient(75deg, rgb(0, 110, 255), rgb(0, 195, 255) 100%);
+    padding: 8px 25px;
+    -webkit-border-radius: 20px;
+    color: #fff!important;
+    font-weight: 600;
+    outline: 0!important;
+    border: 0px solid rgb(0, 175, 255);
+}
+
+.bt-copyBtn:active {
+    font-size: 14px;
+    font-weight: 700;
+    background: linear-gradient(75deg, rgb(0, 180, 255), rgb(0, 200, 255) 100%);
+    padding: 8px 25px;
+    -webkit-border-radius: 20px;
+    color: #fff!important;
+    font-weight: 600;
+    outline: 0!important;
+    border: 0px solid #fff;
+}
+
+.copy-bta {
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 95%;
+    float: right;
+}
+
+/* ----- Nav ----- */
+
+/* Active Nav */
+
+.active-nav {
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, .05);
+    display: block;
+}
+
+.active-nav-logo {
+    padding-top: 7px;
+    padding-bottom: 5px;
+    height: 55px;
+}
+
+li {
+    float: right;
+}
+
+.active-nav-li-a {
+    display: block;
+    text-decoration: none;
+}
+
+.active-nav-ul {
+    margin-top: 12px;
+    list-style-type: none;
+}
+
+/* Aktif Nav IMG*/
+
+.active-nav img {
+    z-index: 2!important;
+    height: 53px;
+    float: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 6px;
+}
+
+.active-nav a, .active-nav a:hover, .active-nav a:visited, .active-nav a:link, .active-nav a:active, .passive-nav a, .passive-nav a:hover, .passive-nav a:visited, .passive-nav a:link, .passive-nav a:active {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+    border-bottom: 0px;
+}
+
+.active-nav a h1, .passive-nav a h1 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 80px;
+    padding-top: 6px;
+}
+
+/* Passive Nav */
+
+.passive-nav {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    color: #fff;
+    z-index: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.passive-nav-logo {
+    padding-top: 7px;
+    padding-bottom: 5px;
+    height: 55px;
+}
+
+.passive-nav-li-a {
+    display: block;
+    text-decoration: none;
+}
+
+.passive-nav-ul {
+    margin-top: 12px;
+    list-style-type: none;
+}
+
+/* Body */
+
+/* Slider Body */
+
+/* Link İcon Headerin üstündeki */
+
+.head {
+    margin-top: 180px;
+}
+
+.link-icon {
+    margin-top: 25px;
+    float: left;
+}
+
+.link-icon a {
+    font-size: 18px;
+    background-color: #fff;
+    padding: 12px 15px;
+    -webkit-border-radius: 75px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .30);
+}
+
+.link-icon a span {
+    background: -webkit-linear-gradient(45deg, rgb(0, 110, 255), rgb(0, 195, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* H1 Header Başlık*/
+
+.jm-slider-h1-baslik {
+    margin-left: 85px;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #000;
+    line-height: 80px;
+}
+
+.jm-slider-h2-desc {
+    color: #000;
+    box-sizing: border-box;
+    display: block;
+    font-family: "Open Sans";
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 65px;
+    margin-top: 30px;
+    letter-spacing: -2.1px;
+}
+
+.jm-slider-cont {
+    padding-bottom: 250px;
+    background-image: url("../img/banner-bg.png");
+    background-repeat: no-repeat;
+}
+
+.h2-desc{
+    margin-left: 85px;
+}
+
+
+/* typed.js */
+
+.typed {
+    float: center;
+    display: inline;
+    background: -webkit-linear-gradient(45deg, rgb(0, 110, 255), rgb(0, 195, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 3px solid rgb(0, 175, 255);
+}
+
+.typed-cursor {
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-duration: 0.7s;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-name: blink;
+    animation-play-state: running;
+    animation-timing-function: ease;
+    display: inline;
+    background: -webkit-linear-gradient(45deg, rgb(0, 110, 255), rgb(0, 195, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 3px solid rgb(0, 175, 255);
+}
+
+/* input */
+
+.input-area {
+    padding: 10px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .18);
+}
+
+.input-area span {
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.input-area input {
+    width: 358px;
+    height: 35px;
+    border: transparent;
+    text-decoration: none;
+    border-width: 0;
+    outline: 0!important;
+}
+
+.input-area a {
+    margin-left: 8px;
+    float: right;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .30);
+    outline: 0!important;
+}
+
+/* SIGNUP input */
+
+.signup-input {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .18);
+    width: 100%;
+}
+
+.signup-input span {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.signup-input p {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.signup-input input {
+    margin-top: 10px;
+    float: right;
+    width: 60%;
+    display: inline-block;
+    height: 35px;
+    border: transparent;
+    text-decoration: none;
+    border-width: 0;
+    outline: 0!important;
+}
+
+/* Support Text Area input */
+
+.sup-tarea-input {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .18);
+    width: 100%;
+    height: 275px;
+}
+
+.sup-tarea-input span {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.sup-tarea-input p {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.sup-tarea-input textarea {
+    margin-top: 10px;
+    float: right;
+    width: 60%;
+    height: 255px;
+    display: inline-block;
+    border: transparent;
+    text-decoration: none;
+    border-width: 0;
+    outline: 0!important;
+}
+
+/* */
+
+#heroback {
+    position: fixed;
+}
+
+.list-area {
+width: 100%;
+}
+
+.paper-plane {
+    margin-left: 250px;
+    text-align: right;
+    height: 50px;
+} 
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: -webkit-linear-gradient(45deg, #0072ff, #00c0ff);
+    color: #fff;
+}
+
+.footer h5 {
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Alert Area Div */
+
+#veriKaydetAlert {
+    color: #000!important;
+}
+
+.jm-login-cont {
+    padding-bottom: 250px;
+    background-image: url("../img/banner-bg.png");
+    background-repeat: no-repeat;
+}
+
+.login-nav-a, .login-nav-a:hover, .login-nav-a:visited, .login-nav-a:link, .login-nav-a:active {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+    color: #000;
+    border-bottom: 0px;
+}
+
+.login-nav-logo {
+    float: left;
+}
+
+.login-nav-a h1 {
+    font-size: 38px;
+    font-weight: 400;
+    margin-left: 70px;
+    padding-top: 3px;
+}
+
+/* Üye Ol Login Buton*/
+
+.bt-sign, .bt-bt-sign:link, .bt-sign:visited {
+    font-size: 14px;
+    font-weight: 700;
+    background: #fff;
+    padding: 8px 25px;
+    -webkit-border-radius: 20px;
+    color: rgb(0, 155, 255)!important;
+    font-weight: 600;
+    outline: 0!important;
+    border: 1px solid rgb(0, 175, 255);
+}
+
+.bt-sign:hover {
+    font-size: 14px;
+    font-weight: 700;
+    background: linear-gradient(75deg, rgb(0, 110, 255), rgb(0, 195, 255) 100%);
+    padding: 8px 25px;
+    -webkit-border-radius: 20px;
+    color: #fff!important;
+    font-weight: 600;
+    outline: 0!important;
+    border: 0px solid rgb(0, 175, 255);
+}
+
+.bt-sign:active {
+    font-size: 14px;
+    font-weight: 700;
+    background: linear-gradient(75deg, rgb(0, 180, 255), rgb(0, 200, 255) 100%);
+    padding: 8px 25px;
+    -webkit-border-radius: 20px;
+    color: #fff!important;
+    font-weight: 600;
+    outline: 0!important;
+    border: 0px solid #fff;
+}
+
+/* Giriş Login Buton*/
+
+.bt-login, .bt-login:link, .bt-login:visited {
+    font-size: 14px;
+    font-weight: 700;
+    background: linear-gradient(75deg, rgb(0, 110, 255) 0, rgb(0, 195, 255) 100%);
+    padding: 8px 25px;
+    -webkit-border-radius: 20px;
+    color: #ffffff!important;
+    font-weight: 600;
+    outline: 0!important;
+}
+
+.bt-login:hover {
+    font-size: 14px;
+    font-weight: 700;
+    background: rgb(0, 180, 255);
+    padding: 8px 25px;
+    -webkit-border-radius: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    outline: 0!important;
+}
+
+.bt-login:active {
+    font-size: 14px;
+    font-weight: 700;
+    background: rgb(0, 200, 255);
+    padding: 8px 25px;
+    -webkit-border-radius: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    outline: 0!important;
+}
+
+/* Login Bt Area */
+
+.login-bt-area {
+    margin-right: 110px;
+    margin-top: -25px;
+    float: right;
+}
+
+/* Login Şifremi unuttum */
+
+.login-fpw a {
+    color: #000;
+}
+
+.login-fpw {
+    margin-left: -10px;
+    margin-top: 15px;
+}
+
+
+/* Şifre Değiştir - Edit Password Buton*/
+
+.bt-editpw, .bt-editpw:link, .bt-editpw:visited {
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    background: linear-gradient(75deg, rgb(0, 110, 255) 0, rgb(0, 195, 255) 100%);
+    padding: 8px 25px;
+    -webkit-border-radius: 20px;
+    color: #ffffff!important;
+    font-weight: 600;
+    outline: 0!important;
+}
+
+.bt-editpw:hover {
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    background: rgb(0, 180, 255);
+    padding: 8px 25px;
+    -webkit-border-radius: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    outline: 0!important;
+}
+
+.bt-editpw:active {
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    background: rgb(0, 200, 255);
+    padding: 8px 25px;
+    -webkit-border-radius: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    outline: 0!important;
+}
+
+.EPpweBt-area {
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+/* ANA SAYFA Hoşgeldin Kullanıcı Adı Yazısı*/
+
+.jm-user-h2-desc {
+    color: #000;
+    box-sizing: border-box;
+    display: block;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 65px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    letter-spacing: -1.5px;
+}
+
+/* Paketler Area */
+
+.jm-paketler {
+    background: linear-gradient(75deg, rgb(0, 110, 255) 0, rgb(0, 220, 255) 100%);
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+
+.jm-paket {
+    margin-top: 10px;
+    -webkit-border-radius: 2px;
+    background: -webkit-linear-gradient(45deg, rgb(230, 230, 230), rgb(255, 255, 255));
+    padding-top: 20px;
+    padding-bottom: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .4);
+    overflow: hidden;
+    position: relative;
+}
+
+.jm-paket div {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.jm-paket span {
+    margin-right: 8px;
+}
+
+.jm-paket-span-ok {
+    background: -webkit-linear-gradient(45deg, rgb(0, 110, 255), rgb(0, 200, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.jm-paket-span-x {
+    background: -webkit-linear-gradient(45deg, rgb(50, 50, 50), rgb(100, 100, 100));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.jm-paket p {
+    margin-top: -15px;
+    text-align: center;
+}
+
+.ewfp {
+    margin-top: 15px;
+}
+
+.jm-paket-front {
+    margin-top: -10px;
+    -webkit-border-radius: 2px;
+    background: -webkit-linear-gradient(45deg, rgb(240, 240, 240), rgb(255, 255, 255));
+    padding-top: 40px;
+    padding-bottom: 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .4);
+}
+
+.paket-icon {
+    float: center;
+    text-align: center;
+}
+
+.paket-icon img {
+    width: 50%;
+}
+
+.paket-uyeol {
+    float: center;
+    text-align: center;
+}
+
+/* paket sağ üst yazı */
+
+.best-label {
+    text-align: center;
+    position: absolute;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    width: 200px;
+    background: -webkit-linear-gradient(45deg, rgb(0, 110, 255), rgb(0, 200, 255));
+    color: #fff;
+    line-height: 40px;
+    transform: rotate(45deg);
+    right: -68px;
+    top: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .25);
+}
+
+.b-frnt {
+    top: 26px;
+    right: -58px;
+}
+
+.best-corner {
+    overflow: hidden;
+    position: relative;
+}
+
+/* SignUp Area */
+
+.Signup-bt-area {
+    width: 100%;
+}
+
+.Signup-bt-area a {
+    text-align: right;
+    float: right;
+    margin-top: -75px;
+}
+
+/* Link Listem Tablo Alanı*/
+
+.LinkTablo-area {
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .25);
+    -webkit-border-radius: 7px;
+    padding: 25px;
+}
+
+.list-link-edit {
+    width: 100%;
+}
+
+.list-uzun-td{
+    max-width: 400px;
+    overflow: hidden;
+}
+
+#ListAlert {
+    margin-top: 35px;
+}
+
+/* Liste span Butons */
+
+.bt-span1, .bt-span1:link, .bt-span1:visited {
+    font-size: 14px;
+    font-weight: 700;
+    background: transparent;
+    padding: 8px 12px;
+    -webkit-border-radius: 20px;
+    color: rgb(0, 155, 255)!important;
+    font-weight: 600;
+    outline: 0!important;
+    border: 1px solid rgb(0, 175, 255);
+}
+
+.bt-span1:hover {
+    font-size: 14px;
+    font-weight: 700;
+    background: linear-gradient(75deg, rgb(0, 110, 255), rgb(0, 195, 255) 100%);
+    padding: 8px 12px;
+    -webkit-border-radius: 20px;
+    color: #fff!important;
+    font-weight: 600;
+    outline: 0!important;
+    border: 1px solid rgb(0, 175, 255);
+}
+
+.bt-span1:active {
+    font-size: 14px;
+    font-weight: 700;
+    background: linear-gradient(75deg, rgb(0, 180, 255), rgb(0, 200, 255) 100%);
+    padding: 8px 12px;
+    -webkit-border-radius: 20px;
+    color: #fff!important;
+    font-weight: 600;
+    outline: 0!important;
+    border: 1px solid #fff;
+}
+
+/* Liste span Trash Butons */
+
+.bt-spantrash, .bt-spantrash, .bt-span1:visited {
+    font-size: 14px;
+    font-weight: 700;
+    background: transparent;
+    padding: 8px 12px;
+    -webkit-border-radius: 20px;
+    color: rgb(235, 0, 0)!important;
+    font-weight: 600;
+    outline: 0!important;
+    border: 1px solid rgb(200, 0, 0);
+}
+
+.bt-spantrash:hover {
+    font-size: 14px;
+    font-weight: 700;
+    background: linear-gradient(75deg, rgb(235, 0, 0), rgb(255, 10, 10) 100%);
+    padding: 8px 12px;
+    -webkit-border-radius: 20px;
+    color: #fff!important;
+    font-weight: 600;
+    outline: 0!important;
+    border: 1px solid rgb(210, 0, 0);
+}
+
+.bt-spantrash:active {
+    font-size: 14px;
+    font-weight: 700;
+    background: linear-gradient(75deg, rgb(255, 0, 0), rgb(215, 0, 0) 100%);
+    padding: 8px 12px;
+    -webkit-border-radius: 20px;
+    color: #fff!important;
+    font-weight: 600;
+    outline: 0!important;
+    border: 1px solid #fff;
+}
+
+.g-recaptcha {
+    margin-top: 25px;
+}
+
+/* !!!!!!!!!!!!!! PROFİL AREA !!!!!!!!!!!!!! */
+
+.Profil-area {
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .25);
+    -webkit-border-radius: 7px;
+    padding: 25px;
+}
+
+.Profil-area a {
+    float: right;
+}
+
+.edit-prof-pw {
+    margin-top: 25px;
+    background: linear-gradient(75deg, rgb(0, 110, 255), rgb(0, 195, 255) 100%);
+    color: #fff;
+    -webkit-border-radius: 6px;
+}
+
+
+/* !!!!!!!!!!!!!! RESET PASSWORD AREA !!!!!!!!!!!!!! */
+
+/* Login Bt Area */
+
+.resetpw-bt-area {
+    margin-top: 3px;
+    margin-right: 110px;
+    float: right;
+}
+
+.rpw-gr {
+    margin-top: -2px;
+    float: left;
+}

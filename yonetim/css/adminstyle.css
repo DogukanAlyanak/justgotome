@@ -1,0 +1,307 @@
+/* Navbar Logo */
+
+.navbar-logo {
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.navbar-logo h1 {
+    margin-left: 7px;
+    margin-top: 7px;
+    margin-bottom: -7px;
+    float: right;
+    font-weight: 600;
+    color: #fff;
+}
+
+.jgt-admin-logo {
+    height: 40px;
+}
+
+
+/* !!!!!!!!!!!!! Buttons Area !!!!!!!!!!!!! */
+
+
+/* !!!!!!!!!!!!! Normal Buttons Area !!!!!!!!!!!!! */
+
+
+/* JGT Normal Button Primary */
+
+.bt-admin-primary,
+.bt-admin-primary:link,
+.bt-admin-primary:visited {
+    background: #0077ff;
+    color: #222222!important;
+    outline: 0!important;
+    border: 1px solid #0077ff;
+}
+
+.bt-admin-primary:hover {
+    background: #0099ff;
+    color: #222222!important;
+    outline: 0!important;
+    border: 1px solid #0077ff;
+}
+
+.bt-admin-primary:active {
+    background: #00abff;
+    color: #222222!important;
+    outline: 0!important;
+    border: 1px solid #0077ff;
+}
+
+
+/* !!!!!!!!!!!!! Outline Buttons Area !!!!!!!!!!!!! */
+
+
+/* Buton Genel */
+
+.jbt,
+.jbt:link,
+.jbt:hover,
+.jbt:visited,
+.jbt:active {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+    margin: 2px 2px 2px 2px;
+}
+
+
+/* Button Boyut Small2 - Medum arası */
+
+.bt-sm2 {
+    font-size: 15px;
+    padding: 5px 22px;
+    font-weight: 300;
+    border-radius: 50px;
+    letter-spacing: 0.5px;
+}
+
+
+/* JGT Button Outline Primary */
+
+.bt-admin-outline-primary,
+.bt-admin-outline-primary:link,
+.bt-admin-outline-primary:visited {
+    background: transparent;
+    color: #0088ff!important;
+    outline: 0!important;
+    border: 1px solid #0088ff;
+}
+
+.bt-admin-outline-primary:hover {
+    background: #0088ff;
+    color: #fff!important;
+    outline: 0!important;
+    border: 1px solid #0088ff;
+}
+
+.bt-admin-outline-primary:active {
+    background: #00aaff;
+    color: #fff!important;
+    outline: 0!important;
+    border: 1px solid #00aaff;
+}
+
+
+/* JGT Button Outline Danger */
+
+.bt-admin-outline-danger,
+.bt-admin-outline-danger:link,
+.bt-admin-outline-danger:visited {
+    background: transparent;
+    color: #ed0000!important;
+    outline: 0!important;
+    border: 1px solid #ed0000;
+}
+
+.bt-admin-outline-danger:hover {
+    background: #ed0000;
+    color: #fff!important;
+    outline: 0!important;
+    border: 1px solid #ed0000;
+}
+
+.bt-admin-outline-danger:active {
+    background: #fe0000;
+    color: #fff!important;
+    outline: 0!important;
+    border: 1px solid #ed0000;
+}
+
+
+/* JGT Button Outline Warning */
+
+.bt-admin-outline-warning,
+.bt-admin-outline-warning:link,
+.bt-admin-outline-warning:visited {
+    background: transparent;
+    color: #ff6600!important;
+    outline: 0!important;
+    border: 1px solid #ff6600;
+}
+
+.bt-admin-outline-warning:hover {
+    background: #ff6600;
+    color: #fff!important;
+    outline: 0!important;
+    border: 1px solid #ff6600;
+}
+
+.bt-admin-outline-warning:active {
+    background: #ff9900;
+    color: #fff!important;
+    outline: 0!important;
+    border: 1px solid #ff9900;
+}
+
+
+/* JGT Button Outline Light */
+
+.bt-admin-outline-light,
+.bt-admin-outline-light:link,
+.bt-admin-outline-light:visited {
+    background: transparent;
+    color: #9a9a9a!important;
+    outline: 0!important;
+    border: 1px solid #9a9a9a;
+}
+
+.bt-admin-outline-light:hover {
+    background: #9a9a9a;
+    color: #222222!important;
+    outline: 0!important;
+    border: 1px solid #9a9a9a;
+}
+
+.bt-admin-outline-light:active {
+    background: #bbbbbb;
+    color: #222222!important;
+    outline: 0!important;
+    border: 1px solid #bbbbbb;
+}
+
+
+/* Log reHeight */
+
+.dashboard-logs {
+    height: 230px!important;
+}
+
+
+/* Sayaç Kartı Boyut Ayarları*/
+
+.jgt-boxes {
+    height: 340px;
+}
+
+.jgt-boxes i {
+    margin-top: 50px;
+}
+
+.jgt-boxes span {
+    padding-bottom: 50px;
+}
+
+
+/* jgt Notepad reHeight */
+
+.jgt-Notepad {
+    height: 230px!important;
+}
+
+
+/* Note Edit Button */
+
+.jgt-note-btn {
+    float: right;
+}
+
+.jgt-note-btn i {
+    margin-right: 4px;
+}
+
+
+/* Note Edit Area*/
+
+.jgt-note-edit,
+.jgt-note-edit div,
+.jgt-note-edit div textarea {
+    height: 100%;
+    width: 100%;
+    flex: 1 1 auto;
+}
+
+#adminNoteAlert {
+    font-size: 18px;
+    margin-left: 10px;
+    float: right;
+    text-align: center;
+    color: rgb(206, 41, 0);
+}
+
+
+/* !!!!!!!!!!!!!! Members - Üyeler AREA !!!!!!!!!!!!!! */
+
+.member-h4s {
+    text-align: center;
+    align-content: center;
+}
+
+.col-j {
+    margin: 0px, -20px, 0px, -20px;
+}
+
+.member-alert {
+    margin-left: 15px;
+    float: left;
+}
+
+
+/* !!!!!!!!!!!!!! Member Edit - Üye Düzenle AREA !!!!!!!!!!!!!! */
+
+.member-label-area {
+    width: 150px;
+}
+
+.member-label-area p {
+    position: absolute;
+    top: 10px;
+}
+
+.memberedit-btn-area {
+    float: right;
+    align-content: right;
+}
+
+.memberedit-btn-area button {
+    color: black;
+}
+
+.member-text {
+    position: relative;
+    top: 10px;
+}
+
+.jdd-item {
+    color: #969696!important;
+}
+
+.dropdown-rutbe-text {
+    padding: 0px 15px 0px 15px;
+}
+
+.memedit-geri {
+    float: right;
+}
+
+
+/* !!!!!!!!!!!!!! Links - Linkler AREA !!!!!!!!!!!!!! */
+
+.jgt-card {
+    background-color: #232223;
+    padding: 20px 30px 1px 30px;
+}
